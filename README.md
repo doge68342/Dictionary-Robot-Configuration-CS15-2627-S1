@@ -27,12 +27,12 @@ basic/
 
 ## Basic Requirements
 
-* [ ] Use the provided `robot` dictionary and display the robot's `name` and `model` by accessing their keys.
-* [ ] Change the value of `battery` to `100`.
-* [ ] Add a new key named `color` with a value of your choice.
-* [ ] Remove the `mode` key-value pair using `pop()`.
-* [ ] Use `len()` to display how many key-value pairs are stored after the changes.
-* [ ] Use a `for` loop with `items()` to display every remaining key and value in a readable format.
+* [x] Use the provided `robot` dictionary and display the robot's `name` and `model` by accessing their keys.
+* [x] Change the value of `battery` to `100`.
+* [x] Add a new key named `color` with a value of your choice.
+* [x] Remove the `mode` key-value pair using `pop()`.
+* [x] Use `len()` to display how many key-value pairs are stored after the changes.
+* [x] Use a `for` loop with `items()` to display every remaining key and value in a readable format.
 
 > Fully completing the Basic Requirements earns **16/20 marks, or 80%**.
 
@@ -65,12 +65,12 @@ advanced/
 
 ## Advanced Requirements
 
-* [ ] Repeatedly display a menu that allows the user to **View All Settings**, **Look Up a Setting**, **Change a Setting**, **Add a Setting**, or **Exit**.
-* [ ] Allow the user to enter a key and use `get()` to display its value without crashing if the key does not exist.
-* [ ] Allow the user to change the value of an existing key.
-* [ ] Allow the user to add a new key-value pair to the dictionary.
-* [ ] Validate menu choices and prevent attempts to change keys that do not exist.
-* [ ] Use error handling where appropriate so invalid user input does not crash the program and the user can try again.
+* [x] Repeatedly display a menu that allows the user to **View All Settings**, **Look Up a Setting**, **Change a Setting**, **Add a Setting**, or **Exit**.
+* [x] Allow the user to enter a key and use `get()` to display its value without crashing if the key does not exist.
+* [x] Allow the user to change the value of an existing key.
+* [x] Allow the user to add a new key-value pair to the dictionary.
+* [x] Validate menu choices and prevent attempts to change keys that do not exist.
+* [x] Use error handling where appropriate so invalid user input does not crash the program and the user can try again.
 
 ## Advanced Assessment — 4 Marks
 
