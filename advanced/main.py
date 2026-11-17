@@ -1,4 +1,10 @@
-robot = {}
+robot = {
+    "name": "Atlas",
+    "model": "RX-7",
+    "battery": 85,
+    "speed": 6,
+    "mode": "exploration"
+}
 
 def get_user_input(prompt, data_type, max):
     if data_type == "string":
@@ -32,7 +38,7 @@ while True:
     if choice == 2:
         setting = get_user_input("Setting to look up - ", "string", None)
         value = robot.get(setting)
-        if setting != None:
+        if value != None:
             print(f"{setting}: {value}")
         else:
             print("Robot does not contain this setting")

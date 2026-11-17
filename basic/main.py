@@ -13,5 +13,5 @@ robot["color"] = "red"
 robot.pop("mode")
 print(f"{len(robot)} key value pairs in robot")
 
-for key in robot:
-    print(f"{key}: {robot[key]}")
+for key, value in robot.items():
+    print(f"{key}: {value}")
